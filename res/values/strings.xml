@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">TED</string>
+    <string name="title_section3">My Talks</string>
+    <string name="title_section2">Archives</string>
+    <string name="title_section1">Featured</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_share">Share</string>
+    <string name="title_activity_main">TED</string>
+
+</resources>

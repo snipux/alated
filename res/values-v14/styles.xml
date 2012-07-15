@@ -1,0 +1,27 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarTabTextStyle">@style/TedTabTextStyle</item>
+        <item name="android:actionBarStyle">@style/TedActionBar</item>
+        <item name="android:actionBarTabStyle">@style/TedActionBarTabStyle</item>
+        <item name="android:actionBarTabBarStyle">@style/TedActionBarTabBarStyle</item>
+    </style>
+
+    <style name="TedTabTextStyle" parent="@android:style/TextAppearance.Holo">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TedActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#fff</item>
+    </style>
+
+    <style name="TedActionBarTabStyle" parent="android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/actionbar_tab_bg</item>
+    </style>
+
+    <style name="TedActionBarTabBarStyle" parent="@android:style/Widget.Holo.ActionBar.TabBar">
+        <item name="android:showDividers">none</item>
+        <item name="android:background">#edebe9</item>
+    </style>
+
+</resources>
